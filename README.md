@@ -3,6 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/version-v0.1.0-blue.svg)](https://github.com/ChrisClements1987/repop/releases)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![Issues](https://img.shields.io/github/issues/ChrisClements1987/repop)](https://github.com/ChrisClements1987/repop/issues)
 
 A simple, configurable Windows utility to "re-pop" a specific browser tab to the foreground at a set interval.
 
@@ -136,15 +137,56 @@ To remove `Repop` completely:
 3.  This will find and delete the scheduled task from Windows Task Scheduler.
 4.  You can then safely delete the `repop` folder.
 
+## 🐛 Reporting Issues & Requesting Features
+
+We use GitHub Issues to track bugs, feature requests, and enhancements. Before creating a new issue, please:
+
+1. **Search existing issues** to see if your bug/feature has already been reported
+2. **Check our roadmap** in the issues to see if your feature is already planned
+3. **Provide clear details** when reporting bugs (OS version, browser, error messages)
+
+### 🎯 Issue Types
+
+- **🐛 Bug Reports**: Something isn't working as expected
+- **✨ Feature Requests**: New functionality you'd like to see
+- **📝 Documentation**: Improvements to docs or examples
+- **🚀 Enhancements**: Improvements to existing features
+
+### 📋 How to Report
+
+1. **Go to [Issues](https://github.com/ChrisClements1987/repop/issues)**
+2. **Click "New Issue"**
+3. **Choose the appropriate template** (if available)
+4. **Fill out all relevant sections**
+
+### 🎯 Current Roadmap
+
+Check our [GitHub Issues](https://github.com/ChrisClements1987/repop/issues) to see:
+- ✅ **Completed features** (marked as closed)
+- 🚧 **In progress** (currently open with assignees)
+- 🎯 **Planned features** (labeled as "enhancement")
+
 ## 🤝 Contributing
 
-Pull requests are welcome\! If you have ideas for new features, bug fixes, or improvements, please open an issue first to discuss what you would like to change.
+Pull requests are welcome! If you have ideas for new features, bug fixes, or improvements, please open an issue first to discuss what you would like to change.
 
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
+### Development Workflow
+
+1. **Fork the Project**
+2. **Create your Feature Branch** (`git checkout -b feature/AmazingFeature`)
+3. **Make your changes** and test thoroughly
+4. **Update documentation** if needed (README, comments, etc.)
+5. **Commit your Changes** (`git commit -m 'Add some AmazingFeature'`)
+6. **Push to the Branch** (`git push origin feature/AmazingFeature`)
+7. **Open a Pull Request** with a clear description of your changes
+
+### 📝 Contribution Guidelines
+
+- **Test your changes** on Windows before submitting
+- **Follow PowerShell best practices** and maintain code style consistency
+- **Update the README** if you add new configuration options
+- **Add comments** for complex logic or Windows API calls
+- **Keep commits focused** - one feature/fix per PR when possible
 
 ## 📜 License
 
