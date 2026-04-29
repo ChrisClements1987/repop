@@ -18,10 +18,19 @@ $Config = @{
     BrowserExeName = "firefox"
 
     # The full path to your browser's executable.
-    # Leave this blank ("") to let the script try to find it.
+    # Leave this blank ("") to let the script try to find it automatically.
     BrowserExePath = ""
 
-    # The string to search for in the window title to "find" the browser.
-    # "Mozilla Firefox", "Google Chrome", "Microsoft Edge", "Brave"
+    # The string to search for in the window title to identify the browser window.
+    # Examples: "Mozilla Firefox", "Google Chrome", "Microsoft Edge", "Brave"
     WindowTitleSearch = "Mozilla Firefox"
+
+    # Focus behaviour determines what happens after the tab is shown.
+    # Options:
+    #   "Foreground"      - Keep the browser focused (classic behaviour).
+    #   "RestorePrevious" - Bring the browser forward, then return focus to the app you were using.
+    FocusBehavior = "RestorePrevious"
+
+    # When using RestorePrevious, wait this many seconds before returning focus.
+    FocusReturnDelaySeconds = 1.5
 }

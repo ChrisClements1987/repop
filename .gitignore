@@ -7,3 +7,6 @@ Desktop.ini
 
 # Local settings
 *.user
+
+# Runtime output
+last_run.txt
